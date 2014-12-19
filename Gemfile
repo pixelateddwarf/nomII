@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 # gems added for nomser project ----------------------#
 gem 'bootstrap-sass', '~> 3.3.0'
 gem 'autoprefixer-rails'
+gem 'will_paginate', '~> 3.0.6'
 
 
 

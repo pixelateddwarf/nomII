@@ -1,3 +1,7 @@
+<div class="page_nav"> 
+    <%= will_paginate @places %>
+</div>
+
 <% @places.each do |place| %>
   <div class="booyah-box col-xs-10 col-xs-offset-1">
     <h1><%= place.name %></h1>
