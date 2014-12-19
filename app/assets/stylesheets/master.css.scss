@@ -1,6 +1,10 @@
 // Master style sheet
 // For my styles
 
+// google fonts used
+@import url(http://fonts.googleapis.com/css?family=Sansita+One);
+
+
 
 body {
   background: url('/assets/food.png');
@@ -12,6 +16,12 @@ body {
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #8C7611;
+  font-family: 'exoextrabold', sans-serif;
+}
+
 
 
 .booyah-box {
