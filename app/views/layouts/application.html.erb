@@ -42,9 +42,10 @@
 </nav>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ NAVIGATION SECTION END ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-
-<% if notice.present? %> <p class="alert alert-info"><%= notice %></p> <% end %> 
-<% if alert.present? %> <p class="alert alert-danger"><%= alert %></p> <% end %>
+<div class="col-sm-10 col-sm-prepend-1">
+  <% if notice.present? %> <p class="alert alert-info"><%= notice %></p> <% end %> 
+  <% if alert.present? %> <p class="alert alert-danger"><%= alert %></p> <% end %>
+</div>
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ BODY SECTION BEGIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
