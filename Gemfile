@@ -35,7 +35,7 @@ gem 'devise', '>= 3.2.4'
 gem "geocoder"
 gem 'carrierwave'
 gem "fog", "~> 1.3.1" 
-#gem "figaro", ">= 1.0.0"
+gem "figaro", ">= 1.0.0"
 
 
 # Use ActiveModel has_secure_password
