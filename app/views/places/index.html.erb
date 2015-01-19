@@ -9,14 +9,14 @@
   <div class="carousel-inner">
 
     <div class="item active">
-    <%= image_tag 'slider1.jpg' %>
+    <%= image_tag 'slider1.jpg', :class => 'img-responsive' %>
       <div class="carousel-caption">
       Find the best pizza places
       </div>
     </div>
 
   <div class="item">
-    <%= image_tag 'slider2.jpg' %>
+    <%= image_tag 'slider2.jpg', :class => 'img-responsive' %>
     <div class="carousel-caption">
       Looking for specialty pizzas?
     </div>
@@ -33,8 +33,9 @@
   <span class="glyphicon glyphicon-chevron-right"></span> 
 </a> 
 
-</div>
+</div> <!-- end carousel itself -->
 
+<br />
 
 <div class="page_nav"> 
     <%= will_paginate @places %>
