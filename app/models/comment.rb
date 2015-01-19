@@ -19,4 +19,8 @@ class Comment < ActiveRecord::Base
       NotificationMailer.comment_added(self).deliver
   end
 
+  def pretty_string
+    "#{humanized_rating} - #{message}"
+  end
+
 end
